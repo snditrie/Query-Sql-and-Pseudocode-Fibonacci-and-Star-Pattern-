@@ -1,0 +1,14 @@
+1. Input:
+    n (jumlah angka yang akan dihasilkan)
+
+2. Inisialisasi:
+    - Buat array result kosong
+    - Set a dan b sebagai 1 (dua angka pertama dalam deret Fibonacci)
+
+3. Iterasi dari 1 hingga n:
+    - Tambahkan a ke dalam array result
+    - Hitung angka berikutnya dengan menjumlahkan a dan b
+    - Update a menjadi b dan b menjadi angka berikutnya
+
+4. Output:
+    Tampilkan isi array result sebagai deret Fibonacci

@@ -1,0 +1,18 @@
+1. Input:
+    n (jumlah baris yang akan dihasilkan)
+
+2. Inisialisasi:
+    Buat variabel stars sebagai string kosong
+    Set i sebagai 1 (untuk baris saat ini)
+
+3. Iterasi dari 1 hingga n:
+    - Buat string line kosong
+    - Hitung jumlah bintang pada baris ke-i sebagai 2 * i - 1
+    - Iterasi dari 1 hingga (2 * i - 1):
+        - Tambahkan bintang ke dalam string line
+    - Tambahkan string line ke dalam variabel stars
+    - Tambahkan baris baru ke dalam stars
+    - Update i untuk iterasi berikutnya
+
+4. Output:
+    Tampilkan isi variabel stars sebagai pola bintang

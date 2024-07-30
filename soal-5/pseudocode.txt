@@ -1,0 +1,23 @@
+1. Input:
+    - Input1 (angka yang akan diformat)
+    - Input2 (jumlah total digit yang diinginkan)
+
+2. Inisialisasi:
+    - Set formattedNumber sebagai string kosong
+
+3. Hitung panjang angka Input1:
+    - length = Panjang string dari Input1
+
+4. Hitung jumlah nol yang perlu ditambahkan di depan:
+    - zerosToAdd = Input2 - length
+
+5. Jika zerosToAdd lebih besar dari 0:
+    - Tambahkan zerosToAdd angka nol di depan Input1
+    - Set formattedNumber menjadi string dengan zerosToAdd nol di depan Input1
+    - Format angka Input1 dengan nol di depan hingga panjang total sesuai dengan Input2
+
+6. Jika zerosToAdd kurang dari atau sama dengan 0:
+    - Set formattedNumber menjadi Input1 (karena panjangnya sudah cukup)
+
+7. Output:
+    - Tampilkan formattedNumber
